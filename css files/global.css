@@ -1,0 +1,44 @@
+*{
+margin: 0;
+
+}
+/* ── LIGHT THEME (default) ── */
+:root {
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --border: #e8e0d4;
+  --accent: #b8832a;
+  --accent-hover: #c8973a;
+  --text: #1a1410;
+  --muted: #8a7d6b;
+  --error: #c0392b;
+  --success: #2e7d32;
+  --input-bg: #f5f0e8;
+  --footer: #b8a990;
+  --shadow: 0 20px 60px rgba(0,0,0,0.1);
+  --btn-text: #fff;
+  --toggle-bg: #e8e0d4;
+  --toggle-icon-x: 2px;
+}
+
+/* ── DARK THEME ── */
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --border: #2e2e2e;
+  --accent: #c8973a;
+  --accent-hover: #e0ab4a;
+  --text: #f0ece4;
+  --muted: #888;
+  --error: #e05252;
+  --success: #4caf7d;
+  --input-bg: #111;
+  --footer: #444;
+  --shadow: 0 20px 60px rgba(0,0,0,0.4);
+  --btn-text: #0f0f0f;
+  --toggle-bg: #2e2e2e;
+  --toggle-icon-x: 26px;
+}
+
+/* ── 
+المفروض ده لما تحطه ف اي ملف هيديك نفس الالوان
